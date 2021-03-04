@@ -6,7 +6,7 @@ DistributedSamplerViaLocallyShuffle.py is a simpler verison which only have one 
 
 DistributedSamplerViaLocallyShuffleV2.py has two shuffle pools and similier process like the Partially Shuffle in TensorFlow.
 
-# Usage
+## Usage
 
 You can use it just like DistributedSampler in Pytorch with some extra hyper-parameters.
 The file reader should be designed like this:
@@ -27,4 +27,4 @@ The file reader should be designed like this:
         return npz_reader
 ```
 
-For more information, you can connect jianjzh@microsoft.com.
+This work is done in Microsoft Ads team. For more information, you can connect jianjzh@microsoft.com.
